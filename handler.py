@@ -2,9 +2,10 @@ import json
 
 
 def hello(event, context):
+    print('Test log message!')
     body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
-        "input": event
+        "message": "Chris Dao wants to say hello to the World!",
+        "event": event
     }
 
     response = {
@@ -13,12 +14,3 @@ def hello(event, context):
     }
 
     return response
-
-    # Use this code if you don't use the http event with the LAMBDA-PROXY
-    # integration
-    """
-    return {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
-        "event": event
-    }
-    """

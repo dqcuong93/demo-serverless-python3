@@ -18,3 +18,7 @@ var/
 
 # Serverless directories
 .serverless
+
+.idea/
+Pipfile
+__pycache__/
