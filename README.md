@@ -1,4 +1,5 @@
 # demo-serverless-python3
+Demo of Serverless framework with AWS using Python
 
 ## Commands used
 To invoke function locally and show logs.
