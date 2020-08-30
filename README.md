@@ -1,4 +1,4 @@
-# serverless-python3-demo
+# demo-serverless-python3
 
 ### Commands used
 To invoke function locally and show logs.
